@@ -1,0 +1,269 @@
+
+
+a , h1{
+    font-family: 'Nunito', sans-serif;
+    font-weight: 700;
+}
+
+a:hover{
+	text-decoration:;
+}
+
+button:hover, button:focus, .button:hover, .button:focus , .button{
+	font-family: 'Nunito', sans-serif;
+}
+
+/*header*/
+
+
+.top-bar{
+	background-color: black;
+	top:20%;
+}
+
+.top-bar-section li:not(.has-form) a:not(.button){
+	background-color: black;
+	font-family: 'Nunito', sans-serif;
+	font-weight: 700;
+	font-size: 1rem;
+}
+
+.top-bar-section li:not(.has-form) a:not(.button):hover{
+	background-color: black;
+	color : gray;
+	transition: 0.3s;
+}
+
+.contain-to-grid{
+	background-color: black;
+	height: 5rem;
+
+}
+
+.top-bar-section ul li:hover:not(.has-form) > a{
+	background-color: black;
+}
+
+.top-bar-section .dropdown li:not(.has-form):not(.active) > a:not(.button){
+	background-color: black;
+}
+
+.logo{
+	height: 3rem;
+}
+
+/*hero*/
+.hero{
+	background: url('../img/light-grey-terrazzo.png');
+	padding: 5rem 0;
+	background-attachment: fixed;
+}
+
+/*breadcrumbs*/
+
+.breadcrumbs {
+	background-color: white;
+	border-style: none;
+	border-radius: 0;
+	margin-bottom: 0px;
+	padding-top: 3rem;
+}
+
+.breadcrumbs > * a{
+	color:black;
+	font-family: 'Nunito', sans-serif;
+	font-size: 1rem;
+}
+
+.breadcrumbs > * a:hover{
+	text-decoration: none;
+}
+
+.breadcrumbs > * a .lastPage{
+	color: #c2c2c2;
+}
+
+
+/* main shop.html */
+
+main{
+	padding-top: 3rem;
+}
+
+.productImg{
+	width: 25rem;
+}
+
+.hero h3{
+	font-weight: 900;
+	font-family: 'Nunito', sans-serif;
+	font-size: 2.5rem;
+}
+
+/* main product */
+
+.related{
+	padding-bottom: 4rem;
+}
+
+.product-image{
+	height: 23rem;
+}
+
+.product-title{
+	font-family: 'Nunito', sans-serif;
+}
+
+.product-price , .product-available{
+	font-family: 'Nunito', sans-serif;
+	font-weight: 700;
+	font-size: 2rem;
+	padding-top: -1rem;
+}
+
+.product-available{
+	color:#07d50f;
+}
+
+.product-unavailable{
+	color:#d53707;
+	font-family: 'Nunito', sans-serif;
+	font-size: 1.6rem;
+}	
+
+.stock-warning{
+	font-weight: 400;
+	font-size: 1rem;
+	color: red;
+}
+
+.product-description{
+    font-family: 'Raleway', sans-serif;
+    font-size: 1rem;
+    text-align: justify;
+}
+
+.detailHeading{
+	padding-top: 0.5rem;
+	color: #c2c2c2;
+	font-weight: 400;
+	font-size: 1.3rem;
+	font-family: 'Nunito', sans-serif;
+
+}
+
+#addCartBtn{
+	border-style: solid;
+	border-width: 1px;
+	border-color: #edaa19;
+	width: 100%;
+	background-color: #edaa19;
+}
+
+#addCartBtn:hover{
+	border-style: solid;
+	border-width: 1px;
+	border-color: #edaa19;
+	background-color: white;
+	color: black;
+}
+
+.related h1{
+	font-family: 'Nunito', sans-serif;
+}
+
+button.disabled, button[disabled], .button.disabled, .button[disabled]{
+	opacity: 100;
+}
+
+/*cart*/
+#headCart{
+
+}
+
+#ContinueBtn p{
+	
+	font-size: 1.5rem;
+	font-family: 'Nunito', sans-serif;
+	line-height: 1;
+	padding-top: 23px;
+	position: relative;
+	left: 12%;
+}
+
+#ContinueBtn p a{
+	color: #00e699;
+	font-weight: 400;
+}
+
+#cartList{
+	padding-top: 4rem;
+}
+
+/*pagination*/
+.paginate{
+	margin-top: 2rem;
+}
+
+.paginate li{
+	position: relative;
+	left: 42%;
+}
+
+ul.pagination li.current a, ul.pagination li.current button{
+	background-color: #edaa19;
+}
+
+ul.pagination li.current a:hover, ul.pagination li.current a:focus, ul.pagination li.current button:hover, ul.pagination li.current button:focus{
+	background-color: #f5d389;
+}
+
+/*footer*/
+
+.footer{
+	background: url('../img/light-grey-terrazzo.png');
+	background-attachment: fixed;
+	padding-top: 2rem;
+}
+
+.footerHeading{
+	padding-top: 2rem;
+	font-family: 'Nunito', sans-serif;
+	font-weight: 700;
+	text-shadow: 2px 2px 8px #ffffff;
+}
+
+#footerLeft{
+	text-shadow: 3px 2px 7px #ffffff;
+}
+
+
+#btnSubscribe{
+	background-color: black;
+}
+
+#btnSubscribe:hover{
+	background-color: white;
+	color:black;
+}
+
+/*product page image*/
+.magnify {width: 100%; margin: auto; position: relative; cursor: none}
+
+/*Lets create the magnifying glass*/
+.largeMag {
+	width: 175px; height: 175px;
+	position: absolute;
+	border-radius: 100%;
+	
+	/*Multiple box shadows to achieve the glass effect*/
+	box-shadow: 0 0 0 7px rgba(255, 255, 255, 0.85), 
+	0 0 7px 7px rgba(0, 0, 0, 0.25), 
+	inset 0 0 40px 2px rgba(0, 0, 0, 0.25);
+	
+	/*hide the glass by default*/
+	display: none;
+}
+
+/*To solve overlap bug at the edges during magnification*/
+.smallMag { display: block; }

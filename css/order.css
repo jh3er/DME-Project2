@@ -1,0 +1,12 @@
+.odrBtn{
+	background-color:#edaa19;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #edaa19;
+}
+
+.odrBtn:hover{
+	transition: .3s;
+	background-color: white;
+	color: #edaa19;
+}

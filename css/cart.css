@@ -1,0 +1,65 @@
+.checkoutContainer{
+	padding-top: 1.5rem;
+	background-color: rgb(242, 242, 242);
+}
+
+.order-total-label , .order-total-amount {
+	font-family: 'Nunito', sans-serif;
+	font-size: 1.5rem;
+}
+
+.detail{
+	font-family: 'Nunito', sans-serif;
+	font-size: 1rem;
+}
+
+.justify{
+	border-style: solid;
+	border-width: 1px 0 0 0;
+	text-align: justify;
+	padding: 1rem;
+}
+
+button.tiny, .button.tiny{
+	background-color: #ff471a;
+}
+
+.panel h5 , .listPrice{
+	font-family: 'Nunito', sans-serif;
+	font-size: 1rem;
+	font-weight: 700;
+}
+
+.desc{
+	font-family: 'Raleway', sans-serif;
+}
+
+.panel{
+	border-style: solid;
+	border-width: 0 0 1px 0;
+	background-color: white;
+}
+
+.panel h4 a{
+	color: #edaa19;
+}
+
+.cartListContainer{
+	padding-left: 0;
+}
+
+.footer{
+	margin-top: 3rem;
+}
+
+#btnOrder{
+	background-color:#edaa19 ;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #edaa19;
+}
+
+#btnOrder:hover{
+	background-color: white;
+	color: #edaa19;
+}

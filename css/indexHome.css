@@ -1,0 +1,130 @@
+
+header{
+	background-color: black;
+	height: 5rem;
+}
+
+/*splash*/
+
+.splash{
+	overflow: auto;
+}
+
+#shopNow{
+	background-color: rgb(255, 153, 0 , 80%);
+	height: 25rem;
+}
+
+.message{
+	margin-top: 5rem;
+    font-family: 'Nunito', sans-serif;
+    font-size: 2rem;
+    font-style: italic;
+    color: white;
+}
+
+#btnShop{
+	background-color: white;
+	color:  #ff9900;
+}
+
+#slider{
+	padding-right: 0px;
+	padding-left: 0px;
+}
+
+#slider img{
+	margin-left: 0px;
+	height: 25rem;
+	max-width: none;	
+}
+
+.orbit-bullets{
+	display: none;
+}
+
+/*category*/
+
+.categorySection{
+	overflow: auto;
+	padding: 2rem 0;
+}
+
+.categorySection h2{
+	font-family: 'Nunito', sans-serif;
+	font-weight: 700;
+}
+
+.categorySection img{
+	height: 15rem;
+}
+
+.CatLink{
+	font-size: 1.5rem;
+}
+
+/*trending*/
+.trending{
+	padding-top: 3rem;
+	background-color: yellow;
+}
+
+.trending h2{
+	font-family: 'Nunito', sans-serif;
+	font-weight: 700;
+	color: #e68a00;
+}
+
+.trendList , .trendList2{
+	text-align: center;
+}
+
+.trendList img , .trendList2 img{
+	transition: all .3s ease-in-out;
+	height: 60%;
+	width: 80%;
+}
+
+.trendList img:hover , .trendList2 img:hover{
+	transform: scale(1.3);
+}
+
+
+/*Testimonial*/
+
+.testimonial{
+	overflow: auto;
+	background-color: #338fff;
+	padding-top: 3rem;
+}
+
+.testimonial h2{
+	text-align: center;
+	font-family: 'Nunito', sans-serif;
+	color: white;
+	font-weight: 700;
+}
+.testimonialList{
+	text-align: center;
+	padding-top: 2rem;
+}
+
+.quoteIcon img{
+	height: 4rem;
+}
+
+.testi{
+	color: white;
+	font-family: 'Nunito', sans-serif;
+	font-size: 1.7rem;
+	padding-top: 2rem;
+	font-style: italic;
+}
+
+.testiName{
+	font-family: 'Nunito', sans-serif;
+	color:white;
+	font-size: 1.5rem;
+	padding: 3rem 0;
+	font-weight: 700;
+}

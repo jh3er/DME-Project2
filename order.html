@@ -1,0 +1,174 @@
+<!doctype html>
+
+<html class="no-js" lang="en">
+
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SneakIt | Order</title>
+    <link rel="stylesheet" href="css/foundation.css" />
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="css/order.css" />
+    <script async src="https://use.fontawesome.com/6bb1a4446e.js"></script>
+    <script src="js/vendor/modernizr.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Nunito:400,700,900" rel="stylesheet"> 
+  </head>
+
+  <body class="order">
+    
+    <!-- Header ..................................................................................................-->
+    <header class="contain-to-grid">
+      <nav class="top-bar" data-topbar role="navigation">
+        <ul class="title-area">
+          <li class="name">
+            <h1><a href="index.html"><img src="img/imageedit_2_9670672979.png" alt="logo" class="logo"></a></h1>
+          </li>
+          <li class="toggle-topbar menu-icon"><a href="#"><span>Menu</span></a></li>
+        </ul>
+        <section class="top-bar-section">
+          <ul class="right">
+            <li><a href="index.html">Home</a></li>
+            <li class="has-dropdown">
+              <a href="#">Category</a>
+              <ul class="dropdown">
+                <li><a href="onSale/index.html" style="color : yellow; ">On Sale !</a></li>
+                <li><a href="newComing/index.html">New Release</a></li>
+                <li><a href="limited/index.html">LIMITED Edition</a></li>
+              </ul>
+            </li>
+            <!-- <li class="divider"></li> -->
+            <li><a href="shop.html">Shop</a></li>
+            <!-- <li class="divider"></li> -->
+            <li id="cart-count"><a href="cart.html"><img src="img/cart.png" alt=""> <span></span></a></li>
+          </ul>
+        </section>
+      </nav>
+    </header>
+
+    <!-- Breadcrumbs -->
+    <section class="nav-breadcrumbs">
+      <div class="row">
+        <div class="column medium-6">
+          <ul class="breadcrumbs">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="cart.html">Order</a></li>
+            <li><a href="order.html" style="color: grey;">Place my Order</a></li>
+          </ul>
+        </div>  
+      </div>
+    </section>
+
+    <!-- Main Content -->
+    <main>
+      <div class="row">
+        <div class="column medium-8">
+          <h1>Order</h1>
+          <form>
+            <div class="row">
+              <div class="column medium-6">
+                <label>First Name
+                  <input type="text" placeholder="Salvatore" />
+                </label>
+              </div>
+              <div class="column medium-6">
+                <label>Last Name
+                  <input type="text" placeholder="Frangione" />
+                </label>
+              </div>
+            </div>
+            <div class="row">
+              <div class="column">
+                <label>Street
+                  <input type="text" placeholder="123 Lexington Avenue" />
+                </label>
+              </div>
+            </div>
+            <div class="row">
+              <div class="column medium-6">
+                <label>City
+                  <input type="text" placeholder="Brooklyn" />
+                </label>
+              </div>
+              <div class="column medium-2">
+                <label>State
+                  <input type="text" placeholder="NY" />
+                </label>
+              </div>
+              <div class="column medium-4">
+                <label>Zip
+                  <input type="text" placeholder="11205" />
+                </label>
+              </div>
+            </div>
+            <div class="row">
+              <div class="column medium-6">
+                <label>Credit Card
+                  <input type="text" placeholder="4622644543385137" />
+                </label>
+              </div>
+              <div class="column medium-2">
+                <label>CVV
+                  <input type="text" placeholder="145" />
+                </label>
+              </div>
+              <div class="column medium-4">
+                <label>Expiration Date
+                  <input type="text" placeholder="03/21" />
+                </label>
+              </div>
+            </div>
+            <div class="row">
+              <div class="column">
+                <input type="submit" name="submit" id="submit" value="Place Order" class="button radius odrBtn">
+              </div>
+            </div>
+          </form>
+        </div>
+        <div class="column medium-4">
+        </div>
+      </div>
+    </main>
+
+    <!-- footer ..................................................................................................-->
+
+    <footer class="footer">
+     <div class="row">
+        <center>
+        <a href="index.html"><img src="img/imageedit_4_3851615827.png" alt=""></a>
+        </center>
+        <div class="column large-6" id="footerLeft">
+          
+          <h3 class="footerHeading">ADDRESS</h3>
+          <p> 101 Pine Street<br>
+
+              Providence, RI 02903<br>
+
+              info@mysite.com<br>
+
+              Tel: 123-456-7890<br>
+            <img src="img/fb.png" alt="">
+            <img src="img/twitter.png" alt="">
+            <img src="img/insta.png" alt="">
+          </p>
+          
+        </div>
+        <div class="column large-6" id="footerRight">
+          <h3 class="footerHeading">STAY IN TOUCH</h3>
+          <p>Join our mailing list</p>
+
+          <input type="text" placeholder="Email">
+          <a href="#" class="button" id="btnSubscribe" >Subscribe</a>
+        </div>
+      </div>
+    </footer>
+    
+    <script src="js/vendor/jquery.js"></script>
+    <script src="js/foundation.min.js"></script>
+    <script src="js/main.js"></script>
+    <script>
+      $(document).foundation();
+    </script>
+
+  </body>
+
+</html>

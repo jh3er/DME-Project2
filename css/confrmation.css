@@ -1,0 +1,19 @@
+h2{
+	font-family: 'Nunito', sans-serif;
+	font-weight: 700;
+}
+
+main , section , .breadcrumbs{
+	background: url('../img/light-grey-terrazzo.png');
+	background-attachment: fixed;
+}
+
+.detail , .right{
+	font-family: 'Nunito', sans-serif;
+	padding: 1.5rem 0;
+	font-size: 1.2rem;
+}
+
+.right{
+	font-size: 1.5rem;
+}
