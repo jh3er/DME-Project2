@@ -198,7 +198,7 @@ if( $('.cart').length ){
 		    sub_total += Number(prod_price_num);
 		   	$('#subTotal').html('<span class="detail left">Sub Total</span><span class="right detail">$'+sub_total+'</span>');
 		    // Add up cart total
-		    cart_total += (Number(prod_price_num) + Number(prod_price_num)*0.075);
+		    cart_total += (Number(prod_price_num) + Math.round(Number(prod_price_num)*0.075)/100);
 		    $('#order-total').html('<span class="order-total-label left">Order Total</span><span class="order-total-amount right">$'+cart_total+'</span>');
 		  } else {
 		    // We reached our target server, but it returned an error

@@ -1,19 +1,43 @@
-h2{
+h2 {
 	font-family: 'Nunito', sans-serif;
 	font-weight: 700;
+	padding-bottom: 2rem;
 }
 
-main , section , .breadcrumbs{
+.nav-breadcrumbs , .breadcrumbs{
 	background: url('../img/light-grey-terrazzo.png');
-	background-attachment: fixed;
+	/*background-attachment: fixed;*/
+	padding-bottom: 1.5rem;
 }
 
-.detail , .right{
+main{
+	padding-bottom: 2rem;
+}
+.detail , .left{
 	font-family: 'Nunito', sans-serif;
 	padding: 1.5rem 0;
 	font-size: 1.2rem;
 }
 
-.right{
+.left , .head{
 	font-size: 1.5rem;
+	font-weight: 400;
+}
+
+.recommendation{
+	padding-top: 2rem;
+}
+
+.recommendContainer{
+	padding-top: 1.5rem;
+}
+
+.recommendation img{
+	transition: all .3s ease-in-out;
+	height: 110%;
+	width: 110%;
+}
+
+.recommendation img:hover{
+	transform: scale(1.3);
 }
