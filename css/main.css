@@ -223,7 +223,12 @@ ul.pagination li.current a:hover, ul.pagination li.current a:focus, ul.paginatio
 .footer{
 	background: url('../img/light-grey-terrazzo.png');
 	background-attachment: fixed;
-	padding-top: 2rem;
+	padding-top: 5rem;
+}
+
+footer{
+	background-color: rgb(255, 255, 255 , 50%);
+	padding-top: 3rem;
 }
 
 .footerHeading{
