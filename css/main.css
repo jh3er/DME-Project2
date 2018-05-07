@@ -227,7 +227,7 @@ ul.pagination li.current a:hover, ul.pagination li.current a:focus, ul.paginatio
 }
 
 footer{
-	background-color: rgb(255, 255, 255 , 50%);
+	background-color: rgba(252, 255, 255);
 	padding-top: 3rem;
 }
 
@@ -240,6 +240,10 @@ footer{
 
 #footerLeft{
 	text-shadow: 3px 2px 7px #ffffff;
+}
+
+#footerLeft img{
+	height: 2.25rem;
 }
 
 
