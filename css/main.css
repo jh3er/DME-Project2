@@ -117,7 +117,7 @@ main{
 .product-price , .product-available{
 	font-family: 'Nunito', sans-serif;
 	font-weight: 700;
-	font-size: 2rem;
+	font-size: 1.5rem;
 	padding-top: -1rem;
 }
 
@@ -140,16 +140,16 @@ main{
 .product-description{
     font-family: 'Raleway', sans-serif;
     font-size: 1rem;
-    text-align: justify;
+    text-align: left;
 }
 
 .detailHeading{
 	padding-top: 0.5rem;
 	color: #c2c2c2;
 	font-weight: 400;
-	font-size: 1.3rem;
+	font-size: 1.25rem;
 	font-family: 'Nunito', sans-serif;
-
+	text-transform: lowercase;
 }
 
 #addCartBtn{

@@ -24,8 +24,14 @@ header{
 }
 
 #btnShop{
+	margin-top: 1.5rem;
 	background-color: white;
 	color:  #ff9900;
+}
+
+#btnShop:hover{
+	background-color: #3377ff;
+	color: white;
 }
 
 #slider{
@@ -65,7 +71,7 @@ header{
 
 /*trending*/
 .trending{
-	padding-top: 3rem;
+	padding-top: 2rem;
 	background-color: yellow;
 }
 
@@ -95,7 +101,7 @@ header{
 .testimonial{
 	overflow: auto;
 	background-color: #338fff;
-	padding-top: 3rem;
+	padding-top: 2rem;
 }
 
 .testimonial h2{
@@ -106,7 +112,7 @@ header{
 }
 .testimonialList{
 	text-align: center;
-	padding-top: 2rem;
+	padding-top: 1.5rem;
 }
 
 .quoteIcon img{
@@ -116,7 +122,7 @@ header{
 .testi{
 	color: white;
 	font-family: 'Nunito', sans-serif;
-	font-size: 1.7rem;
+	font-size: 1.6rem;
 	padding-top: 2rem;
 	font-style: italic;
 }
