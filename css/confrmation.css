@@ -24,6 +24,10 @@ main{
 	font-weight: 400;
 }
 
+.head{
+	text-align: left;
+}
+
 .recommendation{
 	padding-top: 2rem;
 }
