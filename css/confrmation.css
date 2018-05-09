@@ -6,7 +6,7 @@ h2 {
 
 .nav-breadcrumbs , .breadcrumbs{
 	background: url('../img/light-grey-terrazzo.png');
-	/*background-attachment: fixed;*/
+	background-attachment: fixed;
 	padding-bottom: 1.5rem;
 }
 
