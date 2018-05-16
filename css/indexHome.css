@@ -6,6 +6,10 @@ header{
 
 /*splash*/
 
+.orbit-container .orbit-timer {
+	visibility: hidden;
+}
+
 .splash{
 	overflow: auto;
 }
